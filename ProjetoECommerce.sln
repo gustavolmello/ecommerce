@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Layer", "1 - Presentation Layer", "{757B3E24-7CC5-422D-9EE7-2D5674381C3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Repository Layer", "2 - Repository Layer", "{1E7D7620-3855-4B5C-83CB-36EB3D07788F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Security Layer", "3 - Security Layer", "{E993B760-0750-4BD2-8E03-67AE342F6448}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Messages Layer", "4 - Messages Layer", "{D9DC0323-BF63-44CA-B556-53330A9A22B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoECommerce.Presentation", "ProjetoECommerce.Presentation\ProjetoECommerce.Presentation.csproj", "{542C28DF-4810-4503-AB6E-3F7A520B1D62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoECommerce.Data", "ProjetoECommerce.Data\ProjetoECommerce.Data.csproj", "{D3D005AB-FB02-4B6E-B2FC-5E0845376FCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoECommerce.Security", "ProjetoECommerce.Security\ProjetoECommerce.Security.csproj", "{C4C6103A-1960-40F4-859E-2368C72A5CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoECommerce.Messages", "ProjetoECommerce.Messages\ProjetoECommerce.Messages.csproj", "{A16FEBA2-113C-443C-ADFB-1DD23461F569}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{542C28DF-4810-4503-AB6E-3F7A520B1D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542C28DF-4810-4503-AB6E-3F7A520B1D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542C28DF-4810-4503-AB6E-3F7A520B1D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542C28DF-4810-4503-AB6E-3F7A520B1D62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D005AB-FB02-4B6E-B2FC-5E0845376FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D005AB-FB02-4B6E-B2FC-5E0845376FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D005AB-FB02-4B6E-B2FC-5E0845376FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D005AB-FB02-4B6E-B2FC-5E0845376FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C6103A-1960-40F4-859E-2368C72A5CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C6103A-1960-40F4-859E-2368C72A5CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C6103A-1960-40F4-859E-2368C72A5CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C6103A-1960-40F4-859E-2368C72A5CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16FEBA2-113C-443C-ADFB-1DD23461F569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16FEBA2-113C-443C-ADFB-1DD23461F569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16FEBA2-113C-443C-ADFB-1DD23461F569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16FEBA2-113C-443C-ADFB-1DD23461F569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{542C28DF-4810-4503-AB6E-3F7A520B1D62} = {757B3E24-7CC5-422D-9EE7-2D5674381C3F}
+		{D3D005AB-FB02-4B6E-B2FC-5E0845376FCD} = {1E7D7620-3855-4B5C-83CB-36EB3D07788F}
+		{C4C6103A-1960-40F4-859E-2368C72A5CC6} = {E993B760-0750-4BD2-8E03-67AE342F6448}
+		{A16FEBA2-113C-443C-ADFB-1DD23461F569} = {D9DC0323-BF63-44CA-B556-53330A9A22B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00CAC238-E3DB-4A1F-A5F8-29EA573E9E51}
+	EndGlobalSection
+EndGlobal
